@@ -67,7 +67,7 @@ class MainPage extends Component{
                 
                 <div className="otp-style">
                     <div className="page-header">
-                        <div className="instruction"><h2>This is your current OTP</h2></div> 
+                        <div className="instruction"><h2>Your OTP</h2></div> 
                     </div>
                     <div className='content'>
                         {/* <div className="row">
@@ -79,7 +79,7 @@ class MainPage extends Component{
                                 {/* <p>Time</p> */}
                                 <svg>
                                     <circle r="18" cx="20" cy="20"style={this.divStyle} ></circle>
-                                    {/* <text x="12" y="25" fill="black">{this.state.counter}</text> */}
+                                    <text x="12" y="25" fill="black">{this.state.counter}</text>
                                 </svg>
                             </div>
                         {/* </div> */}
@@ -88,7 +88,7 @@ class MainPage extends Component{
                     </div>
                     <hr className="line"/>
                     <div className="page-header-s">
-                        <div className="instruction"><h2>Scan this QR code</h2></div> 
+                        <div className="instruction"><h2>Scan this code</h2></div> 
                     </div>
                     <div className="barcode-image"><img src={barCodeImage} alt='Fetching Barcode...'/></div>
                     

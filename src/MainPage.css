@@ -4,21 +4,23 @@
 }
 .otp-number{
     color: rgb(46, 46, 138);
-    padding-bottom: .2em;
+    padding-bottom: 0;
     font-size: 5em;
     display: inline-block;
 }
 .barcode-image img{
-    width: 19em;
+    width: 22em;
     height: auto
 }
-.counter-style{
-    display: inline-block;
-}
 .counter-style p{
-    padding-top: 1.6em;
-    color: rgb(128, 83, 0);
+    padding-top: 0;
 }
+.counter-style{
+    padding-bottom: 1.6em;
+    color: rgb(128, 83, 0);
+
+}
+
 .otp{
     text-align: right;
 }
@@ -36,7 +38,7 @@ svg {
     height: 40px;
     vertical-align: unset;
     margin-left: .5em;
-    transform: rotateY(-180deg) rotateZ(-90deg);
+    /* transform: rotateY(-180deg) rotateZ(-90deg); */
 }
 
 svg circle {
