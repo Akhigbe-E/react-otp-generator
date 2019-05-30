@@ -50,6 +50,12 @@ svg circle {
     fill: none;
     /* animation: countdown 30s linear infinite forwards; */
 }
+text{
+    font-size: .8em;
+    /* transform: rotateX(-180deg); */
+    /* transform: scaleY(-1);
+    transform: rotateY(-180deg) rotateZ(90deg); */
+}
 
 @keyframes countdown {
     from {

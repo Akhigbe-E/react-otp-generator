@@ -54,8 +54,8 @@ class MainPage extends Component{
             }, counter*1000)
         }
     }
-    divStyle = {
-        animation: `countdown ${this.state.counter}s linear infinite forwards`
+    countDownAnimation = {
+        animation: `countdown ${this.state.counter}s linear ${this.state.otpArray.length} forwards`
     }
     componentDidMount(){
         this.generateOtp()
@@ -78,8 +78,8 @@ class MainPage extends Component{
                             <div className="counter-style">
                                 {/* <p>Time</p> */}
                                 <svg>
-                                    <circle r="18" cx="20" cy="20"style={this.divStyle} ></circle>
-                                    <text x="12" y="25" fill="black">{this.state.counter}</text>
+                                    <circle r="18" cx="20" cy="20"style={this.countDownAnimation} ></circle>
+                                    <text x="13.5" y="24" fill="black">{this.state.counter}</text>
                                 </svg>
                             </div>
                         {/* </div> */}
