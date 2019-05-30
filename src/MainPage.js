@@ -41,7 +41,7 @@ class MainPage extends Component{
 
         ],
         currentOtp:882738,
-        counter: 30
+        counter: 60
     }
     generateOtp = () => {
         let {otpArray} = this.state;
@@ -51,12 +51,13 @@ class MainPage extends Component{
                     currentOtp: otp
                 })
                 this.countDown()
-            }, index * 30000); 
+            }, index * 60000); 
         })
+        console.log('done')
     }
     countDown = () => {
         let counter = 0
-        for (let index = 29; index >= 0 ; index--) {
+        for (let index = 59; index >= 0 ; index--) {
             counter+=1
             setTimeout(()=>{
                 this.setState({

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 0.3em auto;
 }
 h1,h2,h3,p{
   margin: 0
@@ -8,6 +9,7 @@ h1,h2,h3,p{
   /* background: black; */
   color: black;
   padding: 1.5em 0;
+  
 }
 .page-header h2{
   margin: 0;

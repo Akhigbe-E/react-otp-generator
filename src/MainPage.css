@@ -8,9 +8,6 @@
     font-size: 5em;
     display: inline-block;
 }
-.barcode-image{
-
-}
 .barcode-image img{
     width: 19em;
     height: auto
@@ -20,6 +17,7 @@
 }
 .counter-style p{
     padding-top: 1.6em;
+    color: rgb(128, 83, 0);
 }
 .otp{
     text-align: right;
@@ -39,7 +37,7 @@ svg circle {
     stroke-dashoffset: 0px;
     stroke-linecap: round;
     stroke-width: 4px;
-    stroke: rgb(92, 18, 70);
+    stroke: orange;
     fill: none;
     /* animation: countdown 30s linear infinite forwards; */
 }
