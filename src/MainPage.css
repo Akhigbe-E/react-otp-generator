@@ -25,11 +25,18 @@
 .counter{
     text-align: left;
 }
-
-  
+.content{
+    text-align: center;
+}
+.line{
+    margin: 0.5rem;
+}
 svg {
     width: 40px;
     height: 40px;
+    vertical-align: unset;
+    margin-left: .5em;
+    transform: rotateY(-180deg) rotateZ(-90deg);
 }
 
 svg circle {
