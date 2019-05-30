@@ -4,7 +4,7 @@
 }
 .otp-number{
     color: rgb(46, 46, 138);
-    padding-bottom: .1em;
+    padding-bottom: .2em;
     font-size: 5em;
     display: inline-block;
 }
@@ -61,6 +61,9 @@ svg circle {
 @media (max-width: 575px){
     .otp {
         text-align: center;
+    }
+    .otp-number{
+        padding-bottom: 0;
     }
     .counter{
         text-align: center
