@@ -1,0 +1,74 @@
+.otp-style{
+    width: 40em;
+    margin: 0 auto
+}
+.otp-number{
+    color: rgb(46, 46, 138);
+    padding-bottom: .1em;
+    font-size: 5em;
+    display: inline-block;
+}
+.barcode-image{
+
+}
+.barcode-image img{
+    width: 19em;
+    height: auto
+}
+.counter-style{
+    display: inline-block;
+}
+.counter-style p{
+    padding-top: 1.6em;
+}
+.otp{
+    text-align: right;
+}
+.counter{
+    text-align: left;
+}
+
+  
+svg {
+    width: 40px;
+    height: 40px;
+}
+
+svg circle {
+    stroke-dasharray: 113px;
+    stroke-dashoffset: 0px;
+    stroke-linecap: round;
+    stroke-width: 4px;
+    stroke: rgb(92, 18, 70);
+    fill: none;
+    /* animation: countdown 30s linear infinite forwards; */
+}
+
+@keyframes countdown {
+    from {
+        stroke-dashoffset: 0px;
+    }
+    to {
+        stroke-dashoffset: 113px;
+    }
+}
+
+@media (max-width: 767px){
+    .otp-style {
+        width: unset;
+    }
+}
+@media (max-width: 575px){
+    .otp {
+        text-align: center;
+    }
+    .counter{
+        text-align: center
+    }
+    .counter-style p{
+        padding-top: 0;
+    }
+    .counter-style{
+        padding-bottom: 1.6em;
+    }
+}
